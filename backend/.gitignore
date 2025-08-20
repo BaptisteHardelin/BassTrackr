@@ -19,4 +19,4 @@ target/
 *.iml
 *.ipr
 
-application.security.yaml
+./src/main/resources/application.security.yaml
