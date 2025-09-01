@@ -1,0 +1,9 @@
+spring:
+  config:
+    import: "classpath:application.security.yaml"
+  application:
+    name: backend
+  data:
+    mongodb:
+      uri: mongodb+srv://baptistehardelin:${mongodb.password}@cluster.mongodb.net
+      database: myDatabase
